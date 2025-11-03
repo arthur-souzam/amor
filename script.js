@@ -4,7 +4,7 @@ function mostrarTela(tela){
 }
 
 const imagens = [];
-for(let i=1;i<=27;i++){
+for(let i=1;i<=29;i++){
   imagens.push({src:`imagens/img${i}.jpeg`, desc:`Descrição do momento ${i}`});
 }
 
@@ -94,6 +94,7 @@ function iniciarContadores(){
   const primeiraVez=new Date(2025,6,26,16,10,0);
   const primeiraConversa=new Date(2025,6,20,11,15,0);
 
+  
   function atualizar(){
     const agora=new Date();
     const diffStart=Math.floor((agora-startData)/1000);
