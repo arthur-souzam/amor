@@ -23,6 +23,7 @@ header nav a{
   color:#c70039;
   cursor:pointer;
   transition:color 0.3s;
+  font-size: 22px;
   font-family:'Dancing Script',cursive;
 }
 header nav a:hover{
@@ -45,6 +46,7 @@ main{
 #contador,#contador-vimos,#contador-conversamos{
   font-size:2rem;
   margin:10px 0 20px;
+  color:#c70039
 }
 .texto{
   font-size:1.2rem;
