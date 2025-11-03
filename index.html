@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arthur ❤ Ana</title>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1 class="titulo-principal">Arthur <span class="heart">❤</span> Ana</h1>
+  <nav>
+    <a onclick="mostrarTela('explorar')">Explorar</a>
+    <a onclick="mostrarTela('momentos')">Momentos</a>
+    <a onclick="mostrarTela('mensagens')">Mensagens</a>
+  </nav>
+</header>
+
+<main>
+ 
+  <section id="explorar" class="tela ativa">
+    <p class="intro">Estamos juntos há</p>
+    <p id="contador"></p>
+
+    <p class="intro">Mas a primeira vez que nos vimos foi há</p>
+    <p id="contador-vimos"></p>
+
+    <p class="intro">E a primeira vez que conversamos foi há aproximadamente</p>
+    <p id="contador-conversamos"></p>
+
+    <p class="texto">E a cada segundo que passa tenho mais certeza de que foi a melhor escolha da minha vida.</p>
+    <button onclick="mostrarTela('momentos')">Clique aqui</button>
+  </section>
+
+
+  <section id="momentos" class="tela">
+    <h2 class="titulo-tela">Nossos Momentos 💞</h2>
+    <div class="galeria">
+      <div class="item"><img src="img1.jpg" alt="Momento 1" onclick="abrirModal('img1.jpg','Descrição do momento 1')"></div>
+      <div class="item"><img src="img2.jpg" alt="Momento 2" onclick="abrirModal('img2.jpg','Descrição do momento 2')"></div>
+      <div class="item"><img src="img3.jpg" alt="Momento 3" onclick="abrirModal('img3.jpg','Descrição do momento 3')"></div>
+      <div class="item"><img src="img4.jpg" alt="Momento 4" onclick="abrirModal('img4.jpg','Descrição do momento 4')"></div>
+      <div class="item"><img src="img5.jpg" alt="Momento 5" onclick="abrirModal('img5.jpg','Descrição do momento 5')"></div>
+      <div class="item"><img src="img6.jpg" alt="Momento 6" onclick="abrirModal('img6.jpg','Descrição do momento 6')"></div>
+      <div class="item"><img src="img7.jpg" alt="Momento 7" onclick="abrirModal('img7.jpg','Descrição do momento 7')"></div>
+      <div class="item"><img src="img8.jpg" alt="Momento 8" onclick="abrirModal('img8.jpg','Descrição do momento 8')"></div>
+      <div class="item"><img src="img9.jpg" alt="Momento 9" onclick="abrirModal('img9.jpg','Descrição do momento 9')"></div>
+      <div class="item"><img src="img10.jpg" alt="Momento 10" onclick="abrirModal('img10.jpg','Descrição do momento 10')"></div>
+      <div class="item"><img src="img11.jpg" alt="Momento 11" onclick="abrirModal('img11.jpg','Descrição do momento 11')"></div>
+      <div class="item"><img src="img12.jpg" alt="Momento 12" onclick="abrirModal('img12.jpg','Descrição do momento 12')"></div>
+    </div>
+    <div id="modal" class="modal">
+      <div class="fundo-borrado" onclick="fecharModal()"></div>
+      <div class="modal-conteudo">
+        <img id="imgModal">
+        <p id="descricaoModal"></p>
+        <button onclick="fecharModal()">Fechar</button>
+      </div>
+    </div>
+    <button onclick="mostrarTela('mensagens')">Continuar</button>
+  </section>
+
+  
+  <section id="mensagens" class="tela">
+    <h2 class="titulo-tela">Cartas para você 💌</h2>
+    <div class="envelopes-container">
+      <div class="envelope" onclick="abrirCarta(this,'Aqui vai o textão da declaração.')">✉️</div>
+      <div class="envelope" onclick="abrirCarta(this,'Mensagem fofa 1')">✉️</div>
+      <div class="envelope" onclick="abrirCarta(this,'Mensagem fofa 2')">✉️</div>
+      <div class="envelope" onclick="abrirCarta(this,'Mensagem fofa 3')">✉️</div>
+      <div class="envelope" onclick="abrirCarta(this,'Mensagem fofa 4')">✉️</div>
+      <div class="envelope" onclick="abrirCarta(this,'Mensagem fofa 5')">✉️</div>
+    </div>
+
+    <div id="carta-modal" class="carta-modal">
+      <div class="fundo-borrado" onclick="fecharCarta()"></div>
+      <div class="papel">
+        <p id="texto-carta"></p>
+        <button onclick="fecharCarta()">Fechar</button>
+      </div>
+    </div>
+    <button onclick="mostrarTela('final')">Continuar</button>
+  </section>
+
+  
+  <section id="final" class="tela">
+    <div class="final">
+      <div class="corao-final">❤</div>
+      <h2>Eu te amo!</h2>
+      <p>E sou muito feliz por poder compartilhar minha vida com você!</p>
+      <button onclick="mostrarTela('explorar')">Reiniciar</button>
+    </div>
+  </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
