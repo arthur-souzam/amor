@@ -44,6 +44,7 @@ O site contém **contadores de tempo juntos**, **galeria de momentos** e **mensa
 - **JavaScript (Vanilla)** – Contadores, navegação entre telas, modais e envelopes interativos  
 
 ---
+
 ## 📁 Estrutura do Projeto
 
 /project-root
@@ -51,7 +52,7 @@ O site contém **contadores de tempo juntos**, **galeria de momentos** e **mensa
 ├─ index.html # Arquivo principal
 ├─ style.css # Estilo e animações
 ├─ script.js # Funções JS: contadores, modais e envelopes
-└─ /imagens # Pasta para suas fotos (img1.jpg, img2.jpg, ..., img12.jpg)
+└─ /imagens # Pasta para suas fotos (img1.jpg, img2.jpg)
 
 
 ---
