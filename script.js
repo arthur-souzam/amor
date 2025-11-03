@@ -5,7 +5,7 @@ function mostrarTela(tela){
 
 const imagens = [];
 for(let i=1;i<=29;i++){
-  imagens.push({src:`imagens/img${i}.JPEG`, desc:`Descrição do momento ${i}`});
+  imagens.push({src:`/amor/imagens/img${i}.JPEG`, desc:`Descrição do momento ${i}`});
 }
 
 function shuffleArray(array){
