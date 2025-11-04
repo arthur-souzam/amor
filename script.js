@@ -23,7 +23,7 @@ const descricoes = [
   "Você pode achar que não, mas esse presente significou muito pra mim, você lembrou de quando te pedi esse chaveiro e fez questão de me dar sem nem me julgar antes.", // img16
   "Eu não teria ido nesse show, mas ir com você foi incrível, ficar abraçadinho com você cantando as músicas foi perfeito e ver sua animação me deixou ainda mais feliz. A Marina e o Bruno também colaboraram pra deixar o dia mais divertido.", // img17
   "Essa foto eu botei pra demonstrar meu amor pela kira, e o amor dela por mim. Eu gosto muito dela de verdade.", // img18
-  "Esse foi o dia que fomos comer sushi juntos e ver você toda felizinha comendo sushi me fez ganhar o dia.", // img19
+  "Esse foi o dia que fomos comer sushi juntos, ver você toda felizinha comendo sushi me fez ganhar o dia.", // img19
   "Amei ver sua alegria quando conseguiu pegar a última hello kitty morena do mc e comprei pra você com prazer.", // img20
   "Esse foi um snickers que você me levou na faculdade, amo como você faz eu me sentir amado e cuidado sempre e esses detalhes mostram isso.", // img21
   "Adorei participar desse churrasco com sua família, todos sempre me trataram muito bem e eu amo passar o tempo com eles, apesar da minha timidez.", // img22
