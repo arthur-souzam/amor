@@ -11,7 +11,7 @@ const descricoes = [
   "Essa foto foi tão genuína, você estava linda(sempre está), de vez em quando eu olhava e percebia como estava ficando apaixonado por você. Esse dia foi muito divertido e a gente riu muito no carro.", // img4
   "Esse dia foi muito marcante pra mim, conheci suas amigas e me senti começando a fazer parte do seu mundo. Me senti muito bem e você me deixou tão tranquilo que meu nervosismo sumiu.", // img5
   "Quase te pedi em namoro nesse dia, eu já tinha certeza absoluta e foi uma tarde tão boa. Essa foto passa uma sensação ótima.", // img6
-  "Me dá vontade de chorar só de ver, você ficou tão feliz com esse pedido e eu amei planejar tudo e fazer esse momento ser mágico pra gente, valeu todos os meus esforços.", // img7
+  "Me dá vontade de chorar só de ver,fiquei tão ansioso por 2 semanas mas deu tudo certo, você ficou tão feliz com esse pedido e eu amei planejar tudo e fazer esse momento ser mágico pra gente, valeu todos os meus esforços.", // img7
   "Eu amo essa foto, você estava linda e já estávamos namorando, um dos dias mais importantes da minha vida.", // img8
   "Acho você tão meiga fazendo carinho nos bichinhos, essa foto mostra exatamente esse seu lado e eu acho linda.", // img9
   "Aqui foi uma semana após o pedido de namoro, e você estava linda como sempre, essa foto exala uma energia de casal foda.", // img10
@@ -86,15 +86,15 @@ function fecharModal() {
 }
 
 const envelopesData = [
-  "Aqui vai o textão da declaração.",
-  "Mensagem fofa 1",
-  "Mensagem fofa 2",
-  "Mensagem fofa 3",
-  "Mensagem fofa 4",
-  "Mensagem fofa 5",
-  "Mensagem fofa 6",
-  "Mensagem fofa 7",
-  "Mensagem fofa 8"
+  "Meu amor, desde o primeiro dia em que te vi, senti algo especial que nunca havia sentido antes. Dividir minha vida contigo tem sido a minha maior alegria e sinto que cada segundo ao seu lado vale ouro.",
+  "Namorar com você é como viver em um filme de romance clichê, mas sem a parte entediante, você sempre sabe me fazer rir e me surpreender e quanto mais eu te conheço, mais eu quero conhecer. Obrigado por fazer parte da minha vida.",
+  "Sei que não sou perfeito, mas com você ao meu lado, sinto que consigo passar por qualquer coisa e ser a melhor versão de mim mesmo.",
+  "Obrigado por sempre me fazer sentir tão amado e valorizado, você é a melhor coisa que já me aconteceu",
+  "As vezes me pergunto onde você esteve esse tempo todo, mas sinto que te encontrei no momento certo. Nem sabia que era possível amar tanto alguém e se sentir tão bem com essa pessoa.",
+  "Tudo isso pode parecer exagerado ou clichê demais, mas decidi fazer isso pra você porque você merece e quero que você saiba o quanto eu te amo.",
+  "Espero que essas mensagens possam te fazer sorrir e lembrar o quanto você é importante e especial pra mim.Não te trocaria por nada no universo.",
+  "Você merece todo o amor e felicidade do mundo, e eu quero sempre poder te proporcionar isso. Você é o amor da minha vida.",
+  "Prometo estar sempre contigo, nos momentos bons e nos péssimos, sempre quero te apoiar e ver você feliz. Te amo muito."
 ];
 
 function carregarEnvelopes() {
