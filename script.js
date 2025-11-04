@@ -86,10 +86,10 @@ function fecharModal() {
 }
 
 const envelopesData = [
-  "Eu pretendia te mostrar isso no futuro, mas não consegueria esperar mais e não tenho medo de dizer o quanto te amo.",
+  "Sei que não sou perfeito, mas com você ao meu lado, sinto que consigo passar por qualquer coisa e ser a melhor versão de mim mesmo, você é meu porto seguro e sei que posso sempre contar contigo. Saiba que você também pode sempre contar comigo.",
   "Meu amor, desde o primeiro dia em que te vi, senti algo especial que nunca havia sentido antes. Dividir minha vida contigo tem sido a minha maior alegria e sinto que cada segundo ao seu lado vale ouro.",
   "Namorar com você é como viver em um filme de romance clichê, mas sem a parte entediante, você sempre sabe me fazer rir e me surpreender e quanto mais eu te conheço, mais eu quero conhecer.", 
-  "Obrigado por sempre me fazer sentir tão amado e valorizado, você é a melhor coisa que já me aconteceu",
+  "Obrigado por sempre me fazer sentir tão amado e valorizado, você é a melhor coisa que já me aconteceu, sempre é muito compreensiva e cainhosa comigo.",
   "As vezes me pergunto onde você esteve esse tempo todo, mas sinto que te encontrei no momento certo. Nem sabia que era possível amar tanto alguém e se sentir tão bem com essa pessoa.",
   "Tudo isso pode parecer exagerado ou clichê demais, mas decidi fazer isso pra você porque você merece e quero que você saiba o quanto eu te amo.",
   "Espero que essas mensagens possam te fazer sorrir e lembrar o quanto você é importante e especial pra mim.Não te trocaria por nada no universo.",
