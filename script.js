@@ -31,7 +31,7 @@ const descricoes = [
   "Você me surpreendeu com essas panquecas, estavam muito boas e foi ótimo comer elas de manhã com você também.", // img24
   "Esse balde de pipoca significa muito pra mim, eu odiava dinossauros mas passei a gostar depois disso", // img25
   "Gosto muito dessa foto e dava de ver como eu já olhava pra você, nem imaginava que algum tempo depois eu estaria aqui escrevendo isso pra você.", // img26
-  "Essa foto também é linda e eu gosto muito.Lembro que eu quase fiz propagando pra red bull na hora de tirar.", // img27
+  "Essa foto também é linda e eu gosto muito. Lembro que eu quase fiz propaganda pra red bull na hora de tirar.", // img27
   "Me acho muito feio nessa foto, mas você estava tão bonitinha e elegante que decidi botar aqui. Gostei muito dessa tarde.", // img28
   "Eu que não gostava de sertanejo me diverti muito cantando com você ou só ouvindo você cantar todas as músicas que eu nunca ouvi.", // img29
   "Ver essa foto me deixa com saudade de te abraçar.", // img30
