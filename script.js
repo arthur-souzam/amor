@@ -4,7 +4,7 @@ function mostrarTela(tela){
 }
 
 const imagens = [];
-for(let i=1;i<=29;i++){
+for(let i=1;i<=35;i++){
   imagens.push({src:`/amor/imagens/img${i}.JPEG`, desc:`Descrição do momento ${i}`});
 }
 
